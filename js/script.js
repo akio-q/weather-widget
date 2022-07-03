@@ -35,9 +35,9 @@ function getWeather(data) {
                 <div class="weather__city">${location}</div>
                 <div class="weather__status">${weatherStatus}</div>
             </div>
-        </div>
-        <div class="weather__icon">
-            <img src="https://openweathermap.org/img/w/${weatherIcon}.png" alt="${weatherStatus}">
+            <div class="weather__icon">
+                <img src="https://openweathermap.org/img/w/${weatherIcon}.png" alt="${weatherStatus}">
+            </div>
         </div>
         <div class="weather__temp">${temp}</div>
         <div class="weather__feels-like">Feels-like: ${feelsLike}</div>

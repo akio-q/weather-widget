@@ -9,22 +9,18 @@
 }
 
 .weather {
-    background-color: #7A956B;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 450px;
     margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 15px;
+    background-color: #7A956B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .weather__loading {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.weather__loading img {
-    max-width: 50px;
 }
 
 .weather__header {
@@ -38,23 +34,29 @@
 .weather__city {
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 15px;
+    color: #fff;
 }
 
 .weather__status {
+    margin-top: 10px;
+    font-weight: 300;
     font-size: 20px;
-    margin-bottom: 20px;
-} 
+    
+}
 
 .weather__temp {
+    margin-top: 5px;
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 10px;
+}
+
+.weather__feels-like {
+    margin-top: 5px;
+    font-size: 18px;
 }
 
 .weather__temp::after,
 .weather__feels-like::after {
-    content: '℃';
-    display: inline-block;
-    margin-left: 5px;
+    content: "℃";
+    margin-left: 2px;
 }
