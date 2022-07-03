@@ -9,7 +9,7 @@ async function loadWeather (e) {
         </div>
     `;
 
-    const server = 'https://api.openweathermap.org/data/3.0/onecall?lat=50°27′00″&lon=30°31′25″&appid=df6b64a207e48187df5ab1a963decd07';
+    const server = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=Kyiv&appid=44e6c41e0a29aa7d0d17f585cd8845e3';
     const response = await fetch(server, {
         method: 'GET',
     });
