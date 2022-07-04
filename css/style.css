@@ -23,6 +23,10 @@
     align-items: center;
 }
 
+.weather__loading img {
+    min-width: 50px;
+}
+
 .weather__header {
     display: flex;
 }
