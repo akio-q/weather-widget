@@ -4,6 +4,10 @@
     font-family: 'Dosis', sans-serif;
 }
 
+body {
+    background-color: rgb(203, 162, 103);
+}
+
 .wrapper {
     margin: 100px auto;
 }
