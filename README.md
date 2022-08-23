@@ -1,4 +1,4 @@
 # weather-widget
-Pet-project
+Pet-project  
 
 ![preview](./preview.PNG)
